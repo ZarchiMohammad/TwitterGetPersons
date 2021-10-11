@@ -1,7 +1,7 @@
-![GitHub repo size](https://img.shields.io/github/repo-size/MohammadZarchi/TwitterGetPersons)
-[![GitHub forks](https://img.shields.io/github/forks/MohammadZarchi/TwitterGetPersons.svg)](https://github.com/MohammadZarchi/TwitterGetPersons)
-![GitHub issues](https://img.shields.io/github/issues/MohammadZarchi/TwitterGetPersons)
-![GitHub contributors](https://img.shields.io/github/contributors/MohammadZarchi/TwitterGetPersons)
+![GitHub repo size](https://img.shields.io/github/repo-size/ZarchiMohammad/TwitterGetPersons)
+[![GitHub forks](https://img.shields.io/github/forks/ZarchiMohammad/TwitterGetPersons.svg)](https://github.com/ZarchiMohammad/TwitterGetPersons)
+![GitHub issues](https://img.shields.io/github/issues/ZarchiMohammad/TwitterGetPersons)
+![GitHub contributors](https://img.shields.io/github/contributors/ZarchiMohammad/TwitterGetPersons)
 ![Twitter Follow](https://img.shields.io/twitter/follow/ZarchiMohammad?style=social)
 
 # TwitterGetPersons
