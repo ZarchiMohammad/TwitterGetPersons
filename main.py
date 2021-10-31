@@ -65,6 +65,8 @@ def data(screen_name):
     print(f"People who did not follow @{screen_name}: {len(ptudnf):,}")
 
     result = {
+        'follower': followers,
+        'following': followings,
         'pwdnfu': pwdnfu,
         'ptudnf': ptudnf
     }
@@ -87,14 +89,20 @@ def write(ids):
 username = input("Please enter Twitter @username: ")
 user_ids = data(username)
 print("Select your function:")
-print(f"[1] People who did not follow @{username}.")
-print(f"[2] People that @{username} did not follow.")
-print(f"[3] Exit from app.")
-run = int(input("Insert your function code? (1|2|3) : "))
+print(f"[1] People who be followed @{username}.")
+print(f"[2] People that @{username} be followed.")
+print(f"[3] People who did not followed @{username}.")
+print(f"[4] People that @{username} did not followed.")
+print(f"[5] Exit from app.")
+run = int(input("Insert your function code? (1|2|3|4|5) : "))
 
 if run == 1:
-    write(user_ids['ptudnf'])
+    write(user_ids['follower'])
 elif run == 2:
-    write(user_ids['pwdnfu'])
+    write(user_ids['following'])
 elif run == 3:
+    write(user_ids['ptudnf'])
+elif run == 4:
+    write(user_ids['pwdnfu'])
+elif run == 5:
     input("Press any key to exit.")
